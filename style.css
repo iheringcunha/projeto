@@ -34,11 +34,14 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588%;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
 
+
+/* profile */
 #profile {
   text-align: center;
   padding: 24px;
@@ -48,7 +51,6 @@ body * {
   width: 112px;
 }
 
-/* profile */
 #profile p {
   font-weight: 500;
   line-height: 24px;
